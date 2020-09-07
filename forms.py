@@ -45,7 +45,7 @@ class EditRecipeForm(FlaskForm):
 class ConfirmDelete(FlaskForm):
     title = StringField('Title', validators=[DataRequired()])
     submit = SubmitField('Delete this Recipe')
-Collapse
+
 
 
 
