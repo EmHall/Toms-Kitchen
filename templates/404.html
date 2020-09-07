@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <p>Something went wrong and we lost our way, want to go to the <a href="{{ url_for('index', title="welcome") }}">Welcome Page?</a></p>
+    <p>Reason:</p>
+    <p>{{ exception }}</p>
+{%  endblock %}
+
+
+
+
+
+
+
